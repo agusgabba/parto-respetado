@@ -12,23 +12,38 @@
 </head>
 <body class="body">
     <header class="header1">
-        <img src="../fotos/logo.png" alt="logo" class="logo">
-        <nav class="nav">
-            <li class="li">
-                <a href="../index.html" class="enlace">Inicio</a>
-            </li>
-            <li class="li">
-                <a href="../anexos/partovaginal.html" class="enlace">Parto Vaginal</a>
-            </li>
-            <li class="li">
-                <a href="../anexos/cesarea.html" class="enlace">Cesarea</a>
-            </li>
-            <li class="li">
-                <a href="../anexos/consentimiento.html" class="enlace">Consentimientos</a>
-            </li>
-            <li class="li">
-                <a href="../anexos/dudas.html" class="enlace">Dudas</a>
-            </li>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                <img src="../fotos/logo.png" alt="logo" width="50" height="40">
+                </a>
+            </div>
+            <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">HOME</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../anexos/dudas.html">Dudas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../anexos/consentimiento.html">Consentimiento</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="../anexos/consentimiento.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Modo de Finalizacion
+                    </a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="../anexos/partovaginal.html">Parto Vaginal</a></li>
+                    <li><a class="dropdown-item" href="../anexos/cesarea.html">Cesarea</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    </ul>
+                </li>
+                </ul>
+            </div>
+            </div>
         </nav>
     </header>
     <main class="main2">
@@ -86,9 +101,7 @@
         </div>
         <div>
             <ul>
-                <a href="">
-                <li class="f3">Adherirse</li>
-                </a>
+                <a href="../anexos/registro.html"><li class="f3">Registrarse</li></a>
                 <a href="../anexos/quienessomos.html">
                     <li class="f3">Contacto</li>
                 </a>
