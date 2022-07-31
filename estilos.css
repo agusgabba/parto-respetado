@@ -1,0 +1,235 @@
+.body {background-color: rgb(250, 246, 246);
+width: 100;}
+.header1 {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color:rgba(255, 255, 255, 0.425);}
+.nav {list-style-type: none;
+font-family: tahoma;
+font-size: 20px;
+display: flex;}
+.li {padding: 50px;}
+.enlace {color: black; text-decoration: none;
+    transition: 0.2s 0.5 ease;}
+.logo { height: 60px;
+margin: 10px;}
+
+/*.......footer....*/
+.footer { background-color: black;
+display: flex;
+justify-content: space-around;
+align-items: center;
+font-family:verdana;}
+.f1 {color: white; }
+.f2 {height: 50px; text-decoration: none;}
+.f5 { margin: 5px; display: flex;}
+.f3 { color: white; list-style-type: none;text-decoration: none;}
+.f4 { color: white; }
+
+/*....pag principal.....*/
+
+.div1 {width: auto;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0)), url(https://images.unsplash.com/photo-1531391468402-01d7c7680bb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bmV3Ym9ybiUyMGZlZXR8ZW58MHx8MHx8&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;}
+.h2 {font-family: tahoma;
+font-size: 80px;
+font-weight: 400px;
+line-height: 80px;
+padding: 20px;
+border: solid white 2px;}
+.p {font-family: 'Courier New';
+font-size: 40px;
+font-weight: 400px;
+text-decoration: underline;animation-name: subtitulo;
+animation-duration: 1s;
+animation-iteration-count: 1;
+animation-timing-function: ease;}
+
+/*....consentimiento.....*/
+.main2 { background-image: linear-gradient(rgba(0, 0, 0, 0.829),rgba(0, 0, 0, 0)), url(fotos/paciente\ con\ medicos.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+display: flex;
+flex-direction: column;}
+.h1 {font-family: verdana; color:black ;
+    font-size: 50px;
+background-color: grey;
+text-align: center;}
+.text {font-family: verdana;
+    font-size: 20px;
+background-color: rgba(128, 128, 128, 0.829);
+margin: 10px;}
+.pdf{display: flex;
+justify-content: space-evenly;
+align-items: center; margin: 20px;}
+.pdf1 {height: 100px;}
+
+
+/*....dudas.....*/
+.cuadros { display: grid;
+grid-template-columns: 300px 300px 300px;
+grid-template-rows: 300px 550px;
+justify-content: space-evenly;
+grid-template-areas: 
+"cuadro1 cuadro2 cuadro3"
+"cuadro4 cuadro5 cuadro6";}
+
+.cuadros1 {background-color: rgba(128, 128, 128, 0.623);
+    margin: 5px; 
+    padding: 5px; 
+    font-family: verdana; 
+    font-size: 15px;
+    grid-area: cuadro1;
+border: solid black;
+-webkit-box-shadow: 20px 14px 42px 7px rgba(0,0,0,0.75);
+-moz-box-shadow: 20px 14px 42px 7px rgba(0,0,0,0.75);
+box-shadow: 20px 14px 42px 7px rgba(0,0,0,0.75);
+transition-delay: 0.2s;
+transition-timing-function: ease;}
+
+.cuadros2 {background-color: rgba(128, 128, 128, 0.623);
+    margin: 5px; 
+    padding: 5px; 
+    font-family: verdana; 
+    font-size: 15px;
+    grid-area: cuadro2;
+border: solid black;
+-webkit-box-shadow: 20px 14px 42px 7px rgba(0,0,0,0.75);
+-moz-box-shadow: 20px 14px 42px 7px rgba(0,0,0,0.75);
+box-shadow: 20px 14px 42px 7px rgba(0,0,0,0.75);
+transition-delay: 0.2s;
+transition-timing-function: ease;}
+
+.cuadros3 {background-color: rgba(128, 128, 128, 0.623);
+    margin: 5px; 
+    padding: 5px; 
+    font-family: verdana; 
+    font-size: 15px;
+    grid-area: cuadro3;
+border: solid black;
+-webkit-box-shadow: 20px 14px 42px 7px rgba(0,0,0,0.75);
+-moz-box-shadow: 20px 14px 42px 7px rgba(0,0,0,0.75);
+box-shadow: 20px 14px 42px 7px rgba(0,0,0,0.75);
+transition-delay: 0.2s;
+transition-timing-function: ease;}
+
+.cuadros4 {background-color: rgba(128, 128, 128, 0.623);
+    margin: 5px; 
+    padding: 5px; 
+    font-family: verdana; 
+    font-size: 15px;
+    grid-area: cuadro4;
+border: solid black;
+-webkit-box-shadow: 20px 14px 42px 7px rgba(0,0,0,0.75);
+-moz-box-shadow: 20px 14px 42px 7px rgba(0,0,0,0.75);
+box-shadow: 20px 14px 42px 7px rgba(0,0,0,0.75);
+transition-delay: 0.2s;
+transition-timing-function: ease;}
+
+.cuadros5 {background-color: rgba(128, 128, 128, 0.623);
+    margin: 5px; 
+    padding: 5px; 
+    font-family: verdana; 
+    font-size: 15px;
+    grid-area: cuadro5;
+border: solid black;
+-webkit-box-shadow: 20px 14px 42px 7px rgba(0,0,0,0.75);
+-moz-box-shadow: 20px 14px 42px 7px rgba(0,0,0,0.75);
+box-shadow: 20px 14px 42px 7px rgba(0,0,0,0.75);
+transition-delay: 0.2s;
+transition-timing-function: ease;}
+
+.cuadros6 {background-color: rgba(128, 128, 128, 0.623);
+    margin: 5px; 
+    padding: 5px; 
+    font-family: verdana; 
+    font-size: 15px;
+    grid-area: cuadro6;
+border: solid black;
+-webkit-box-shadow: 20px 14px 42px 7px rgba(0,0,0,0.75);
+-moz-box-shadow: 20px 14px 42px 7px rgba(0,0,0,0.75);
+box-shadow: 20px 14px 42px 7px rgba(0,0,0,0.75);
+transition-delay: 0.2s;
+transition-timing-function: ease;}
+
+
+/*-----quienessomos----*/
+.agu {height: 300px;}
+.bio {background-image: linear-gradient(rgba(0, 0, 0, 0.829),rgba(0, 0, 0, 0)), url(fotos/paciente\ con\ medicos.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+height: 500px;}
+
+
+/*-----mediaquery----*/
+@media screen and (max-width:1000px){
+    .cuadros { display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: 550px;
+        justify-content: center;
+        grid-template-areas: 
+        "cuadro1" 
+        "cuadro2"
+        "cuadro3" 
+        "cuadro4"
+        "cuadro5" 
+        "cuadro6"}
+    .footer {display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;}
+    .header1 {display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;}
+    .nav {display: flex;
+    flex-direction: column;}
+    .li{ padding: 2px;}
+.main2 {display: flex;
+flex-direction: column;
+margin-top:150px;}   
+.div1 {margin-top: 150px;}
+.h2 {font-size: 25px;
+    font-weight: 400px;
+    line-height: 80px;
+    padding: 20px;
+    border: solid white 2px;}
+.p {font-size: 15px;
+    font-weight: 400px;
+    text-decoration: underline;}
+.bio {display: flex;
+    flex-direction: column;}}
+
+/*-----animacion-----*/
+.cuadros1:hover {background-color: white;}
+.cuadros2:hover {background-color: white;}
+.cuadros3:hover {background-color: white;}
+.cuadros4:hover {background-color: white;}
+.cuadros5:hover {background-color: white;}
+.cuadros6:hover {background-color: white;}
+.enlace:hover{text-decoration: underline;
+color: pink;}
+
+@keyframes subtitulo {
+    0% { transform: translateY(200px);
+    opacity: 0;}
+    100% {transform: translateY(0px);
+    opacity: 1;}
+}
+
